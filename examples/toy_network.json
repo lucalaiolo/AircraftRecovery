@@ -1,0 +1,21 @@
+{
+  "name": "toy_network",
+  "seed": null,
+  "stations": ["MXP", "FCO", "TRN"],
+  "hubs": [],
+  "TAT": 40,
+  "delay_step": 30,
+  "d_max": 60,
+  "disruption": {"kind": "none", "t0": 600},
+  "b": {"MXP": 1},
+  "aircraft": [
+    {"id": "A", "start_station": "FCO"}
+  ],
+  "flights": [
+    {"id": "f0", "origin": "FCO", "dest": "MXP", "dep": 555, "blk": 90, "pax": 100, "orig": "A"},
+    {"id": "f1", "origin": "MXP", "dest": "FCO", "dep": 660, "blk": 70, "pax": 100, "orig": "A"},
+    {"id": "f2", "origin": "MXP", "dest": "TRN", "dep": 720, "blk": 60, "pax": 100, "orig": "A"},
+    {"id": "f3", "origin": "FCO", "dest": "MXP", "dep": 750, "blk": 70, "pax": 100, "orig": "A"},
+    {"id": "f4", "origin": "FCO", "dest": "TRN", "dep": 780, "blk": 70, "pax": 100, "orig": "A"}
+  ]
+}

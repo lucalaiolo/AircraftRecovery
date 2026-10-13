@@ -1,0 +1,11 @@
+{
+  "objective": 126155.0,
+  "meta": {"instance": "tiny_closure_seed008", "method": "compact", "solver": "highs", "delay_step": 15, "d_max": 180, "costs": {"c_delay": 1.0, "c_cancel_fixed": 5000.0, "c_cancel_pax": 250.0, "c_swap": 500.0, "c_pos": 30000.0}},
+  "cancelled": ["F008", "F010"],
+  "routes": {
+    "A01": [["F009", 135], ["F012", 135], ["F016", 135]],
+    "A02": [["F014", 0], ["F018", 0]],
+    "A03": [["F011", 0], ["F015", 0], ["F019", 0], ["F020", 0]],
+    "A04": [["F013", 30], ["F017", 30]]
+  }
+}

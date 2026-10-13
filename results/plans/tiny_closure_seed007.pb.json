@@ -1,0 +1,11 @@
+{
+  "objective": 62055.0,
+  "meta": {"instance": "tiny_closure_seed007", "solver": "gurobi", "method": "price-and-branch", "delay_step": 15, "d_max": 180, "costs": {"c_delay": 1.0, "c_cancel_fixed": 5000.0, "c_cancel_pax": 250.0, "c_swap": 500.0, "c_pos": 30000.0}, "lb": 62055.0, "gap": 0.0, "cg_stop": "converged"},
+  "cancelled": [],
+  "routes": {
+    "A01": [["F018", 0]],
+    "A02": [["F013", 150], ["F020", 15]],
+    "A03": [["F015", 0], ["F016", 60]],
+    "A04": [["F014", 60], ["F017", 60], ["F019", 135]]
+  }
+}

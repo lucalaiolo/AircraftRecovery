@@ -1,0 +1,39 @@
+{
+  "name": "tiny_closure_seed001",
+  "seed": 1,
+  "stations": ["H1", "S01", "S02", "S03", "S04", "S05", "S06"],
+  "hubs": ["H1"],
+  "TAT": 40,
+  "delay_step": 15,
+  "d_max": 180,
+  "disruption": {"kind": "closure", "station": "H1", "ta": 925, "tb": 1015},
+  "b": {"H1": 1, "S01": 1, "S06": 2},
+  "aircraft": [
+    {"id": "A01", "start_station": "H1"},
+    {"id": "A02", "start_station": "H1"},
+    {"id": "A03", "start_station": "H1"},
+    {"id": "A04", "start_station": "S02"}
+  ],
+  "flights": [
+    {"id": "F001", "origin": "H1", "dest": "S04", "dep": 390, "blk": 95, "pax": 154, "orig": "A03"},
+    {"id": "F002", "origin": "H1", "dest": "S05", "dep": 400, "blk": 95, "pax": 150, "orig": "A01"},
+    {"id": "F003", "origin": "S02", "dest": "H1", "dep": 495, "blk": 65, "pax": 158, "orig": "A04"},
+    {"id": "F004", "origin": "H1", "dest": "S05", "dep": 535, "blk": 95, "pax": 178, "orig": "A02"},
+    {"id": "F005", "origin": "S04", "dest": "H1", "dep": 535, "blk": 95, "pax": 135, "orig": "A03"},
+    {"id": "F006", "origin": "S05", "dest": "H1", "dep": 540, "blk": 95, "pax": 141, "orig": "A01"},
+    {"id": "F007", "origin": "H1", "dest": "S05", "dep": 610, "blk": 95, "pax": 100, "orig": "A04"},
+    {"id": "F008", "origin": "H1", "dest": "S01", "dep": 670, "blk": 55, "pax": 112, "orig": "A03"},
+    {"id": "F009", "origin": "S05", "dest": "H1", "dep": 680, "blk": 95, "pax": 85, "orig": "A02"},
+    {"id": "F010", "origin": "H1", "dest": "S05", "dep": 685, "blk": 95, "pax": 81, "orig": "A01"},
+    {"id": "F011", "origin": "S05", "dest": "H1", "dep": 755, "blk": 95, "pax": 180, "orig": "A04"},
+    {"id": "F012", "origin": "S01", "dest": "H1", "dep": 765, "blk": 55, "pax": 101, "orig": "A03"},
+    {"id": "F013", "origin": "H1", "dest": "S02", "dep": 820, "blk": 65, "pax": 79, "orig": "A02"},
+    {"id": "F014", "origin": "S05", "dest": "H1", "dep": 825, "blk": 95, "pax": 129, "orig": "A01"},
+    {"id": "F015", "origin": "H1", "dest": "S01", "dep": 865, "blk": 55, "pax": 93, "orig": "A03"},
+    {"id": "F016", "origin": "H1", "dest": "S03", "dep": 900, "blk": 65, "pax": 132, "orig": "A04"},
+    {"id": "F017", "origin": "S02", "dest": "H1", "dep": 925, "blk": 65, "pax": 167, "orig": "A02"},
+    {"id": "F018", "origin": "H1", "dest": "S06", "dep": 965, "blk": 100, "pax": 95, "orig": "A01"},
+    {"id": "F019", "origin": "S03", "dest": "H1", "dep": 1010, "blk": 65, "pax": 86, "orig": "A04"},
+    {"id": "F020", "origin": "H1", "dest": "S06", "dep": 1035, "blk": 100, "pax": 172, "orig": "A02"}
+  ]
+}

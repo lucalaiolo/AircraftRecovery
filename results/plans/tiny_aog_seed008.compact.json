@@ -1,0 +1,11 @@
+{
+  "objective": 96975.0,
+  "meta": {"instance": "tiny_aog_seed008", "method": "compact", "solver": "highs", "delay_step": 15, "d_max": 180, "costs": {"c_delay": 1.0, "c_cancel_fixed": 5000.0, "c_cancel_pax": 250.0, "c_swap": 500.0, "c_pos": 30000.0}},
+  "cancelled": ["F012"],
+  "routes": {
+    "A01": [],
+    "A02": [["F013", 0], ["F017", 0], ["F018", 150]],
+    "A03": [["F015", 0], ["F019", 0], ["F020", 0]],
+    "A04": [["F014", 0], ["F016", 45]]
+  }
+}

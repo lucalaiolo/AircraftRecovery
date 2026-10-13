@@ -1,0 +1,17 @@
+setting,scale,instances,lp_fractional,gap_positive,mean_gap
+slack 40 (first generator),small,20,0,0,0.0
+slack 40 (first generator),medium,20,2,1,0.005745
+slack 20,small,20,2,2,0.02271
+slack 20,medium,20,2,2,0.030325
+slack 10,small,20,2,2,0.049464
+slack 10,medium,20,4,4,0.06412
+slack 0,small,20,3,3,0.009045
+slack 0,medium,20,2,2,0.005787
+"slack 40, long disruptions",small,20,2,2,0.000549
+"slack 40, long disruptions",medium,20,1,1,2.9e-05
+"slack 40, c_delay 0.5",small,20,1,1,0.001957
+"slack 40, c_delay 0.5",medium,20,2,2,0.00064
+"slack 40, c_delay 0.25",small,20,0,0,0.0
+"slack 40, c_delay 0.25",medium,20,0,0,0.0
+"slack 10, long disruptions",small,20,2,2,0.019912
+"slack 10, long disruptions",medium,20,3,3,0.005296

@@ -1,0 +1,321 @@
+setting,scale,instance,lp_fractional,gap,lb,z_pb
+slack 40 (first generator),small,small_aog_seed000,0,0.0,34325.0,34325.0
+slack 40 (first generator),small,small_closure_seed000,0,0.0,32645.0,32645.0
+slack 40 (first generator),small,small_aog_seed001,0,0.0,43550.0,43550.0
+slack 40 (first generator),small,small_closure_seed001,0,0.0,38970.0,38970.0
+slack 40 (first generator),small,small_aog_seed002,0,0.0,43170.0,43170.0
+slack 40 (first generator),small,small_closure_seed002,0,0.0,16725.0,16725.0
+slack 40 (first generator),small,small_aog_seed003,0,0.0,19145.0,19145.0
+slack 40 (first generator),small,small_closure_seed003,0,0.0,33090.0,33090.0
+slack 40 (first generator),small,small_aog_seed004,0,0.0,38900.0,38900.0
+slack 40 (first generator),small,small_closure_seed004,0,0.0,26400.0,26400.0
+slack 40 (first generator),small,small_aog_seed005,0,0.0,114960.0,114960.0
+slack 40 (first generator),small,small_closure_seed005,0,0.0,12915.0,12915.0
+slack 40 (first generator),small,small_aog_seed006,0,0.0,34895.0,34895.0
+slack 40 (first generator),small,small_closure_seed006,0,0.0,87530.0,87530.0
+slack 40 (first generator),small,small_aog_seed007,0,0.0,70390.0,70390.0
+slack 40 (first generator),small,small_closure_seed007,0,0.0,65490.0,65490.0
+slack 40 (first generator),small,small_aog_seed008,0,0.0,118025.0,118025.0
+slack 40 (first generator),small,small_closure_seed008,0,0.0,42970.0,42970.0
+slack 40 (first generator),small,small_aog_seed009,0,0.0,40280.0,40280.0
+slack 40 (first generator),small,small_closure_seed009,0,0.0,30450.0,30450.0
+slack 40 (first generator),medium,medium_aog_seed000,0,0.0,9005.0,9005.0
+slack 40 (first generator),medium,medium_closure_seed000,0,0.0,123690.0,123690.0
+slack 40 (first generator),medium,medium_aog_seed001,0,0.0,36180.0,36180.0
+slack 40 (first generator),medium,medium_closure_seed001,1,0.11490349,387035.0,437280.0
+slack 40 (first generator),medium,medium_aog_seed002,0,0.0,20580.0,20580.0
+slack 40 (first generator),medium,medium_closure_seed002,0,0.0,47340.0,47340.0
+slack 40 (first generator),medium,medium_aog_seed003,0,0.0,32930.0,32930.0
+slack 40 (first generator),medium,medium_closure_seed003,0,0.0,357535.0,357535.0
+slack 40 (first generator),medium,medium_aog_seed004,0,0.0,33135.0,33135.0
+slack 40 (first generator),medium,medium_closure_seed004,0,0.0,143260.0,143260.0
+slack 40 (first generator),medium,medium_aog_seed005,0,0.0,25350.0,25350.0
+slack 40 (first generator),medium,medium_closure_seed005,0,0.0,62125.0,62125.0
+slack 40 (first generator),medium,medium_aog_seed006,1,0.0,15595.0,15595.0
+slack 40 (first generator),medium,medium_closure_seed006,0,0.0,81375.0,81375.0
+slack 40 (first generator),medium,medium_aog_seed007,0,0.0,18000.0,18000.0
+slack 40 (first generator),medium,medium_closure_seed007,0,0.0,80495.0,80495.0
+slack 40 (first generator),medium,medium_aog_seed008,0,0.0,36005.0,36005.0
+slack 40 (first generator),medium,medium_closure_seed008,0,0.0,69405.0,69405.0
+slack 40 (first generator),medium,medium_aog_seed009,0,0.0,61375.0,61375.0
+slack 40 (first generator),medium,medium_closure_seed009,0,0.0,82855.0,82855.0
+slack 20,small,small_aog_seed000,0,0.0,43945.0,43945.0
+slack 20,small,small_closure_seed000,0,0.0,5800.0,5800.0
+slack 20,small,small_aog_seed001,0,0.0,86440.0,86440.0
+slack 20,small,small_closure_seed001,0,0.0,46340.0,46340.0
+slack 20,small,small_aog_seed002,1,0.14006969,61700.0,71750.0
+slack 20,small,small_closure_seed002,0,0.0,14655.0,14655.0
+slack 20,small,small_aog_seed003,0,0.0,28060.0,28060.0
+slack 20,small,small_closure_seed003,0,0.0,53630.0,53630.0
+slack 20,small,small_aog_seed004,0,0.0,62580.0,62580.0
+slack 20,small,small_closure_seed004,0,0.0,61270.0,61270.0
+slack 20,small,small_aog_seed005,0,0.0,121145.0,121145.0
+slack 20,small,small_closure_seed005,0,0.0,11880.0,11880.0
+slack 20,small,small_aog_seed006,1,0.31412844,56070.0,81750.0
+slack 20,small,small_closure_seed006,0,0.0,169790.0,169790.0
+slack 20,small,small_aog_seed007,0,0.0,82105.0,82105.0
+slack 20,small,small_closure_seed007,0,0.0,185505.0,185505.0
+slack 20,small,small_aog_seed008,0,0.0,120970.0,120970.0
+slack 20,small,small_closure_seed008,0,0.0,106730.0,106730.0
+slack 20,small,small_aog_seed009,0,0.0,56065.0,56065.0
+slack 20,small,small_closure_seed009,0,0.0,11640.0,11640.0
+slack 20,medium,medium_aog_seed000,0,0.0,22470.0,22470.0
+slack 20,medium,medium_closure_seed000,0,0.0,89785.0,89785.0
+slack 20,medium,medium_aog_seed001,0,0.0,61085.0,61085.0
+slack 20,medium,medium_closure_seed001,1,0.00052163,448905.714286,449140.0
+slack 20,medium,medium_aog_seed002,0,0.0,45095.0,45095.0
+slack 20,medium,medium_closure_seed002,0,0.0,46740.0,46740.0
+slack 20,medium,medium_aog_seed003,0,0.0,24025.0,24025.0
+slack 20,medium,medium_closure_seed003,0,0.0,356820.0,356820.0
+slack 20,medium,medium_aog_seed004,0,0.0,77395.0,77395.0
+slack 20,medium,medium_closure_seed004,0,0.0,212350.0,212350.0
+slack 20,medium,medium_aog_seed005,0,0.0,36455.0,36455.0
+slack 20,medium,medium_closure_seed005,0,0.0,44265.0,44265.0
+slack 20,medium,medium_aog_seed006,0,0.0,18845.0,18845.0
+slack 20,medium,medium_closure_seed006,0,0.0,78430.0,78430.0
+slack 20,medium,medium_aog_seed007,0,0.0,41025.0,41025.0
+slack 20,medium,medium_closure_seed007,0,0.0,57205.0,57205.0
+slack 20,medium,medium_aog_seed008,0,0.0,93665.0,93665.0
+slack 20,medium,medium_closure_seed008,1,0.6059765,115342.5,292730.0
+slack 20,medium,medium_aog_seed009,0,0.0,66000.0,66000.0
+slack 20,medium,medium_closure_seed009,0,0.0,75780.0,75780.0
+slack 10,small,small_aog_seed000,0,0.0,46745.0,46745.0
+slack 10,small,small_closure_seed000,0,0.0,13425.0,13425.0
+slack 10,small,small_aog_seed001,0,0.0,97530.0,97530.0
+slack 10,small,small_closure_seed001,0,0.0,57385.0,57385.0
+slack 10,small,small_aog_seed002,0,0.0,60050.0,60050.0
+slack 10,small,small_closure_seed002,0,0.0,21600.0,21600.0
+slack 10,small,small_aog_seed003,1,0.44028269,39600.0,70750.0
+slack 10,small,small_closure_seed003,0,0.0,58660.0,58660.0
+slack 10,small,small_aog_seed004,0,0.0,69595.0,69595.0
+slack 10,small,small_closure_seed004,0,0.0,50300.0,50300.0
+slack 10,small,small_aog_seed005,0,0.0,131895.0,131895.0
+slack 10,small,small_closure_seed005,0,0.0,9810.0,9810.0
+slack 10,small,small_aog_seed006,1,0.54900014,62472.5,138520.0
+slack 10,small,small_closure_seed006,0,0.0,211155.0,211155.0
+slack 10,small,small_aog_seed007,0,0.0,95340.0,95340.0
+slack 10,small,small_closure_seed007,0,0.0,237240.0,237240.0
+slack 10,small,small_aog_seed008,0,0.0,120695.0,120695.0
+slack 10,small,small_closure_seed008,0,0.0,133975.0,133975.0
+slack 10,small,small_aog_seed009,0,0.0,66325.0,66325.0
+slack 10,small,small_closure_seed009,0,0.0,50445.0,50445.0
+slack 10,medium,medium_aog_seed000,0,0.0,33350.0,33350.0
+slack 10,medium,medium_closure_seed000,0,0.0,79745.0,79745.0
+slack 10,medium,medium_aog_seed001,1,0.03012658,76620.0,79000.0
+slack 10,medium,medium_closure_seed001,0,0.0,462855.0,462855.0
+slack 10,medium,medium_aog_seed002,0,0.0,60550.0,60550.0
+slack 10,medium,medium_closure_seed002,0,0.0,44545.0,44545.0
+slack 10,medium,medium_aog_seed003,0,0.0,43465.0,43465.0
+slack 10,medium,medium_closure_seed003,0,0.0,425890.0,425890.0
+slack 10,medium,medium_aog_seed004,0,0.0,80685.0,80685.0
+slack 10,medium,medium_closure_seed004,1,0.16451763,265875.555556,318230.0
+slack 10,medium,medium_aog_seed005,0,0.0,37680.0,37680.0
+slack 10,medium,medium_closure_seed005,1,0.43596892,64237.5,113890.0
+slack 10,medium,medium_aog_seed006,0,0.0,26345.0,26345.0
+slack 10,medium,medium_closure_seed006,0,0.0,65030.0,65030.0
+slack 10,medium,medium_aog_seed007,0,0.0,51175.0,51175.0
+slack 10,medium,medium_closure_seed007,0,0.0,68130.0,68130.0
+slack 10,medium,medium_aog_seed008,0,0.0,77505.0,77505.0
+slack 10,medium,medium_closure_seed008,0,0.0,180145.0,180145.0
+slack 10,medium,medium_aog_seed009,0,0.0,70610.0,70610.0
+slack 10,medium,medium_closure_seed009,1,0.65177976,60017.5,172355.0
+slack 0,small,small_aog_seed000,0,0.0,66660.0,66660.0
+slack 0,small,small_closure_seed000,0,0.0,34800.0,34800.0
+slack 0,small,small_aog_seed001,0,0.0,60750.0,60750.0
+slack 0,small,small_closure_seed001,0,0.0,55220.0,55220.0
+slack 0,small,small_aog_seed002,0,0.0,65750.0,65750.0
+slack 0,small,small_closure_seed002,0,0.0,101200.0,101200.0
+slack 0,small,small_aog_seed003,0,0.0,72160.0,72160.0
+slack 0,small,small_closure_seed003,0,0.0,22650.0,22650.0
+slack 0,small,small_aog_seed004,0,0.0,73060.0,73060.0
+slack 0,small,small_closure_seed004,0,0.0,51215.0,51215.0
+slack 0,small,small_aog_seed005,0,0.0,67500.0,67500.0
+slack 0,small,small_closure_seed005,0,0.0,51990.0,51990.0
+slack 0,small,small_aog_seed006,1,0.17007692,53945.0,65000.0
+slack 0,small,small_closure_seed006,1,0.00499851,167210.0,168050.0
+slack 0,small,small_aog_seed007,0,0.0,101005.0,101005.0
+slack 0,small,small_closure_seed007,1,0.00582724,219657.5,220945.0
+slack 0,small,small_aog_seed008,0,0.0,94280.0,94280.0
+slack 0,small,small_closure_seed008,0,0.0,57185.0,57185.0
+slack 0,small,small_aog_seed009,0,0.0,91340.0,91340.0
+slack 0,small,small_closure_seed009,0,0.0,37680.0,37680.0
+slack 0,medium,medium_aog_seed000,0,0.0,9590.0,9590.0
+slack 0,medium,medium_closure_seed000,0,0.0,248715.0,248715.0
+slack 0,medium,medium_aog_seed001,1,0.00602049,91217.5,91770.0
+slack 0,medium,medium_closure_seed001,0,0.0,312535.0,312535.0
+slack 0,medium,medium_aog_seed002,0,0.0,55000.0,55000.0
+slack 0,medium,medium_closure_seed002,0,0.0,82505.0,82505.0
+slack 0,medium,medium_aog_seed003,0,0.0,46770.0,46770.0
+slack 0,medium,medium_closure_seed003,1,0.10971224,260760.833333,292895.0
+slack 0,medium,medium_aog_seed004,0,0.0,100530.0,100530.0
+slack 0,medium,medium_closure_seed004,0,0.0,179025.0,179025.0
+slack 0,medium,medium_aog_seed005,0,0.0,45250.0,45250.0
+slack 0,medium,medium_closure_seed005,0,0.0,50205.0,50205.0
+slack 0,medium,medium_aog_seed006,0,0.0,58235.0,58235.0
+slack 0,medium,medium_closure_seed006,0,0.0,156805.0,156805.0
+slack 0,medium,medium_aog_seed007,0,0.0,30990.0,30990.0
+slack 0,medium,medium_closure_seed007,0,0.0,59115.0,59115.0
+slack 0,medium,medium_aog_seed008,0,0.0,43200.0,43200.0
+slack 0,medium,medium_closure_seed008,0,0.0,153400.0,153400.0
+slack 0,medium,medium_aog_seed009,0,0.0,85620.0,85620.0
+slack 0,medium,medium_closure_seed009,0,0.0,196585.0,196585.0
+"slack 40, long disruptions",small,small_aog_seed000,0,0.0,50395.0,50395.0
+"slack 40, long disruptions",small,small_closure_seed000,0,0.0,40570.0,40570.0
+"slack 40, long disruptions",small,small_aog_seed001,0,0.0,79615.0,79615.0
+"slack 40, long disruptions",small,small_closure_seed001,0,0.0,31960.0,31960.0
+"slack 40, long disruptions",small,small_aog_seed002,0,0.0,61800.0,61800.0
+"slack 40, long disruptions",small,small_closure_seed002,0,0.0,57605.0,57605.0
+"slack 40, long disruptions",small,small_aog_seed003,0,0.0,36775.0,36775.0
+"slack 40, long disruptions",small,small_closure_seed003,0,0.0,15070.0,15070.0
+"slack 40, long disruptions",small,small_aog_seed004,0,0.0,53145.0,53145.0
+"slack 40, long disruptions",small,small_closure_seed004,0,0.0,54805.0,54805.0
+"slack 40, long disruptions",small,small_aog_seed005,0,0.0,137960.0,137960.0
+"slack 40, long disruptions",small,small_closure_seed005,0,0.0,35985.0,35985.0
+"slack 40, long disruptions",small,small_aog_seed006,0,0.0,44220.0,44220.0
+"slack 40, long disruptions",small,small_closure_seed006,1,0.00709703,204260.0,205720.0
+"slack 40, long disruptions",small,small_aog_seed007,0,0.0,108315.0,108315.0
+"slack 40, long disruptions",small,small_closure_seed007,1,0.0038892,204257.5,205055.0
+"slack 40, long disruptions",small,small_aog_seed008,0,0.0,118025.0,118025.0
+"slack 40, long disruptions",small,small_closure_seed008,0,0.0,160920.0,160920.0
+"slack 40, long disruptions",small,small_aog_seed009,0,0.0,41960.0,41960.0
+"slack 40, long disruptions",small,small_closure_seed009,0,0.0,27075.0,27075.0
+"slack 40, long disruptions",medium,medium_aog_seed000,0,0.0,52700.0,52700.0
+"slack 40, long disruptions",medium,medium_closure_seed000,0,0.0,305215.0,305215.0
+"slack 40, long disruptions",medium,medium_aog_seed001,0,0.0,49125.0,49125.0
+"slack 40, long disruptions",medium,medium_closure_seed001,0,0.0,667240.0,667240.0
+"slack 40, long disruptions",medium,medium_aog_seed002,0,0.0,35415.0,35415.0
+"slack 40, long disruptions",medium,medium_closure_seed002,0,0.0,151635.0,151635.0
+"slack 40, long disruptions",medium,medium_aog_seed003,0,0.0,69425.0,69425.0
+"slack 40, long disruptions",medium,medium_closure_seed003,0,0.0,620415.0,620415.0
+"slack 40, long disruptions",medium,medium_aog_seed004,0,0.0,39815.0,39815.0
+"slack 40, long disruptions",medium,medium_closure_seed004,1,0.00058801,314435.0,314620.0
+"slack 40, long disruptions",medium,medium_aog_seed005,0,0.0,38190.0,38190.0
+"slack 40, long disruptions",medium,medium_closure_seed005,0,0.0,85920.0,85920.0
+"slack 40, long disruptions",medium,medium_aog_seed006,0,0.0,25120.0,25120.0
+"slack 40, long disruptions",medium,medium_closure_seed006,0,0.0,218655.0,218655.0
+"slack 40, long disruptions",medium,medium_aog_seed007,0,0.0,134680.0,134680.0
+"slack 40, long disruptions",medium,medium_closure_seed007,0,0.0,117880.0,117880.0
+"slack 40, long disruptions",medium,medium_aog_seed008,0,0.0,70810.0,70810.0
+"slack 40, long disruptions",medium,medium_closure_seed008,0,0.0,218105.0,218105.0
+"slack 40, long disruptions",medium,medium_aog_seed009,0,0.0,83315.0,83315.0
+"slack 40, long disruptions",medium,medium_closure_seed009,0,0.0,115510.0,115510.0
+"slack 40, c_delay 0.5",small,small_aog_seed000,0,0.0,21162.5,21162.5
+"slack 40, c_delay 0.5",small,small_closure_seed000,0,0.0,17322.5,17322.5
+"slack 40, c_delay 0.5",small,small_aog_seed001,0,0.0,27780.0,27780.0
+"slack 40, c_delay 0.5",small,small_closure_seed001,0,0.0,19485.0,19485.0
+"slack 40, c_delay 0.5",small,small_aog_seed002,1,0.03914395,26265.0,27335.0
+"slack 40, c_delay 0.5",small,small_closure_seed002,0,0.0,8362.5,8362.5
+"slack 40, c_delay 0.5",small,small_aog_seed003,0,0.0,12822.5,12822.5
+"slack 40, c_delay 0.5",small,small_closure_seed003,0,0.0,18045.0,18045.0
+"slack 40, c_delay 0.5",small,small_aog_seed004,0,0.0,24200.0,24200.0
+"slack 40, c_delay 0.5",small,small_closure_seed004,0,0.0,13200.0,13200.0
+"slack 40, c_delay 0.5",small,small_aog_seed005,0,0.0,104355.0,104355.0
+"slack 40, c_delay 0.5",small,small_closure_seed005,0,0.0,6457.5,6457.5
+"slack 40, c_delay 0.5",small,small_aog_seed006,0,0.0,22357.5,22357.5
+"slack 40, c_delay 0.5",small,small_closure_seed006,0,0.0,47475.0,47475.0
+"slack 40, c_delay 0.5",small,small_aog_seed007,0,0.0,40720.0,40720.0
+"slack 40, c_delay 0.5",small,small_closure_seed007,0,0.0,35745.0,35745.0
+"slack 40, c_delay 0.5",small,small_aog_seed008,0,0.0,100512.5,100512.5
+"slack 40, c_delay 0.5",small,small_closure_seed008,0,0.0,21985.0,21985.0
+"slack 40, c_delay 0.5",small,small_aog_seed009,0,0.0,24270.0,24270.0
+"slack 40, c_delay 0.5",small,small_closure_seed009,0,0.0,15225.0,15225.0
+"slack 40, c_delay 0.5",medium,medium_aog_seed000,0,0.0,6632.5,6632.5
+"slack 40, c_delay 0.5",medium,medium_closure_seed000,0,0.0,68760.0,68760.0
+"slack 40, c_delay 0.5",medium,medium_aog_seed001,0,0.0,22590.0,22590.0
+"slack 40, c_delay 0.5",medium,medium_closure_seed001,1,0.00463374,209975.0,210952.5
+"slack 40, c_delay 0.5",medium,medium_aog_seed002,0,0.0,16055.0,16055.0
+"slack 40, c_delay 0.5",medium,medium_closure_seed002,0,0.0,23670.0,23670.0
+"slack 40, c_delay 0.5",medium,medium_aog_seed003,0,0.0,20645.0,20645.0
+"slack 40, c_delay 0.5",medium,medium_closure_seed003,1,0.00816096,201747.5,203407.5
+"slack 40, c_delay 0.5",medium,medium_aog_seed004,0,0.0,23225.0,23225.0
+"slack 40, c_delay 0.5",medium,medium_closure_seed004,0,0.0,79255.0,79255.0
+"slack 40, c_delay 0.5",medium,medium_aog_seed005,0,0.0,14435.0,14435.0
+"slack 40, c_delay 0.5",medium,medium_closure_seed005,0,0.0,33765.0,33765.0
+"slack 40, c_delay 0.5",medium,medium_aog_seed006,0,0.0,11655.0,11655.0
+"slack 40, c_delay 0.5",medium,medium_closure_seed006,0,0.0,44175.0,44175.0
+"slack 40, c_delay 0.5",medium,medium_aog_seed007,0,0.0,9000.0,9000.0
+"slack 40, c_delay 0.5",medium,medium_closure_seed007,0,0.0,42847.5,42847.5
+"slack 40, c_delay 0.5",medium,medium_aog_seed008,0,0.0,21220.0,21220.0
+"slack 40, c_delay 0.5",medium,medium_closure_seed008,0,0.0,36952.5,36952.5
+"slack 40, c_delay 0.5",medium,medium_aog_seed009,0,0.0,33897.5,33897.5
+"slack 40, c_delay 0.5",medium,medium_closure_seed009,0,0.0,45425.0,45425.0
+"slack 40, c_delay 0.25",small,small_aog_seed000,0,0.0,13757.5,13757.5
+"slack 40, c_delay 0.25",small,small_closure_seed000,0,0.0,9661.25,9661.25
+"slack 40, c_delay 0.25",small,small_aog_seed001,0,0.0,19038.75,19038.75
+"slack 40, c_delay 0.25",small,small_closure_seed001,0,0.0,9742.5,9742.5
+"slack 40, c_delay 0.25",small,small_aog_seed002,0,0.0,16473.75,16473.75
+"slack 40, c_delay 0.25",small,small_closure_seed002,0,0.0,4181.25,4181.25
+"slack 40, c_delay 0.25",small,small_aog_seed003,0,0.0,9021.25,9021.25
+"slack 40, c_delay 0.25",small,small_closure_seed003,0,0.0,10480.0,10480.0
+"slack 40, c_delay 0.25",small,small_aog_seed004,0,0.0,16765.0,16765.0
+"slack 40, c_delay 0.25",small,small_closure_seed004,0,0.0,6600.0,6600.0
+"slack 40, c_delay 0.25",small,small_aog_seed005,0,0.0,96581.25,96581.25
+"slack 40, c_delay 0.25",small,small_closure_seed005,0,0.0,3228.75,3228.75
+"slack 40, c_delay 0.25",small,small_aog_seed006,0,0.0,15666.25,15666.25
+"slack 40, c_delay 0.25",small,small_closure_seed006,0,0.0,24206.25,24206.25
+"slack 40, c_delay 0.25",small,small_aog_seed007,0,0.0,24167.5,24167.5
+"slack 40, c_delay 0.25",small,small_closure_seed007,0,0.0,18652.5,18652.5
+"slack 40, c_delay 0.25",small,small_aog_seed008,0,0.0,91313.75,91313.75
+"slack 40, c_delay 0.25",small,small_closure_seed008,0,0.0,11492.5,11492.5
+"slack 40, c_delay 0.25",small,small_aog_seed009,0,0.0,15885.0,15885.0
+"slack 40, c_delay 0.25",small,small_closure_seed009,0,0.0,7612.5,7612.5
+"slack 40, c_delay 0.25",medium,medium_aog_seed000,0,0.0,4961.25,4961.25
+"slack 40, c_delay 0.25",medium,medium_closure_seed000,0,0.0,37002.5,37002.5
+"slack 40, c_delay 0.25",medium,medium_aog_seed001,0,0.0,15285.0,15285.0
+"slack 40, c_delay 0.25",medium,medium_closure_seed001,0,0.0,117318.75,117318.75
+"slack 40, c_delay 0.25",medium,medium_aog_seed002,0,0.0,11890.0,11890.0
+"slack 40, c_delay 0.25",medium,medium_closure_seed002,0,0.0,11835.0,11835.0
+"slack 40, c_delay 0.25",medium,medium_aog_seed003,0,0.0,12822.5,12822.5
+"slack 40, c_delay 0.25",medium,medium_closure_seed003,0,0.0,113422.5,113422.5
+"slack 40, c_delay 0.25",medium,medium_aog_seed004,0,0.0,17111.25,17111.25
+"slack 40, c_delay 0.25",medium,medium_closure_seed004,0,0.0,43572.5,43572.5
+"slack 40, c_delay 0.25",medium,medium_aog_seed005,0,0.0,8967.5,8967.5
+"slack 40, c_delay 0.25",medium,medium_closure_seed005,0,0.0,18903.75,18903.75
+"slack 40, c_delay 0.25",medium,medium_aog_seed006,0,0.0,9577.5,9577.5
+"slack 40, c_delay 0.25",medium,medium_closure_seed006,0,0.0,23120.0,23120.0
+"slack 40, c_delay 0.25",medium,medium_aog_seed007,0,0.0,4500.0,4500.0
+"slack 40, c_delay 0.25",medium,medium_closure_seed007,0,0.0,22730.0,22730.0
+"slack 40, c_delay 0.25",medium,medium_aog_seed008,0,0.0,13212.5,13212.5
+"slack 40, c_delay 0.25",medium,medium_closure_seed008,0,0.0,20333.75,20333.75
+"slack 40, c_delay 0.25",medium,medium_aog_seed009,0,0.0,18911.25,18911.25
+"slack 40, c_delay 0.25",medium,medium_closure_seed009,0,0.0,25875.0,25875.0
+"slack 10, long disruptions",small,small_aog_seed000,0,0.0,72445.0,72445.0
+"slack 10, long disruptions",small,small_closure_seed000,0,0.0,41780.0,41780.0
+"slack 10, long disruptions",small,small_aog_seed001,0,0.0,128135.0,128135.0
+"slack 10, long disruptions",small,small_closure_seed001,0,0.0,69210.0,69210.0
+"slack 10, long disruptions",small,small_aog_seed002,1,0.3968386,90625.0,150250.0
+"slack 10, long disruptions",small,small_closure_seed002,0,0.0,113330.0,113330.0
+"slack 10, long disruptions",small,small_aog_seed003,0,0.0,49000.0,49000.0
+"slack 10, long disruptions",small,small_closure_seed003,0,0.0,19020.0,19020.0
+"slack 10, long disruptions",small,small_aog_seed004,0,0.0,94095.0,94095.0
+"slack 10, long disruptions",small,small_closure_seed004,0,0.0,39545.0,39545.0
+"slack 10, long disruptions",small,small_aog_seed005,1,0.00140535,181195.0,181450.0
+"slack 10, long disruptions",small,small_closure_seed005,0,0.0,62785.0,62785.0
+"slack 10, long disruptions",small,small_aog_seed006,0,0.0,70250.0,70250.0
+"slack 10, long disruptions",small,small_closure_seed006,0,0.0,346075.0,346075.0
+"slack 10, long disruptions",small,small_aog_seed007,0,0.0,125475.0,125475.0
+"slack 10, long disruptions",small,small_closure_seed007,0,0.0,388575.0,388575.0
+"slack 10, long disruptions",small,small_aog_seed008,0,0.0,120695.0,120695.0
+"slack 10, long disruptions",small,small_closure_seed008,0,0.0,289400.0,289400.0
+"slack 10, long disruptions",small,small_aog_seed009,0,0.0,66325.0,66325.0
+"slack 10, long disruptions",small,small_closure_seed009,0,0.0,49405.0,49405.0
+"slack 10, long disruptions",medium,medium_aog_seed000,0,0.0,52000.0,52000.0
+"slack 10, long disruptions",medium,medium_closure_seed000,0,0.0,377055.0,377055.0
+"slack 10, long disruptions",medium,medium_aog_seed001,0,0.0,90510.0,90510.0
+"slack 10, long disruptions",medium,medium_closure_seed001,0,0.0,702545.0,702545.0
+"slack 10, long disruptions",medium,medium_aog_seed002,0,0.0,72630.0,72630.0
+"slack 10, long disruptions",medium,medium_closure_seed002,0,0.0,200310.0,200310.0
+"slack 10, long disruptions",medium,medium_aog_seed003,0,0.0,62000.0,62000.0
+"slack 10, long disruptions",medium,medium_closure_seed003,1,0.10358699,649007.5,724005.0
+"slack 10, long disruptions",medium,medium_aog_seed004,0,0.0,103255.0,103255.0
+"slack 10, long disruptions",medium,medium_closure_seed004,0,0.0,413285.0,413285.0
+"slack 10, long disruptions",medium,medium_aog_seed005,0,0.0,52100.0,52100.0
+"slack 10, long disruptions",medium,medium_closure_seed005,0,0.0,44745.0,44745.0
+"slack 10, long disruptions",medium,medium_aog_seed006,0,0.0,40090.0,40090.0
+"slack 10, long disruptions",medium,medium_closure_seed006,0,0.0,176135.0,176135.0
+"slack 10, long disruptions",medium,medium_aog_seed007,0,0.0,171885.0,171885.0
+"slack 10, long disruptions",medium,medium_closure_seed007,0,0.0,116725.0,116725.0
+"slack 10, long disruptions",medium,medium_aog_seed008,0,0.0,77505.0,77505.0
+"slack 10, long disruptions",medium,medium_closure_seed008,1,0.00060739,414638.0,414890.0
+"slack 10, long disruptions",medium,medium_aog_seed009,0,0.0,89010.0,89010.0
+"slack 10, long disruptions",medium,medium_closure_seed009,1,0.00172934,124110.0,124325.0

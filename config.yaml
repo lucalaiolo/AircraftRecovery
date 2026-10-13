@@ -1,0 +1,104 @@
+# Aircraft recovery: configuration. Times are in minutes from 00:00.
+
+# Cost parameters (formulation §1). Units are arbitrary money units.
+costs:
+  c_delay: 1.0           # per passenger-minute of delay
+  c_cancel_fixed: 5000.0 # C_f = c_cancel_fixed + c_cancel_pax * pax_f
+  c_cancel_pax: 250.0
+  c_swap: 500.0          # per flight flown by an aircraft other than orig_f
+  c_pos: 30000.0         # per aircraft missing from b_s at end of day
+
+# Delay grid D = {0, step, 2*step, ..., d_max}.
+delays:
+  step: 15
+  # null: d_max = min(d_max_default, largest multiple of step strictly below the
+  # elementarity cap, formulation §2.3). An explicit value must be below the cap.
+  d_max: null
+  d_max_default: 180
+
+# Synthetic hub-and-spoke schedule and disruption generator (recovery/generator.py).
+generator:
+  TAT: 40                # minimum turnaround, on-block to next off-block
+  block_min: 55          # block times are drawn per station pair, on a 5-minute grid
+  block_max: 125
+  first_dep_min: 360     # 06:00, earliest first departure of an aircraft
+  first_dep_max: 600     # 10:00, latest first departure (lowered if the rotation is long)
+  last_arr_max: 1410     # 23:30, latest planned arrival
+  # Planned ground time = TAT + slack, slack uniform on {0, 5, ..., slack_max}. 10 comes from
+  # experiments/run_difficulty.py: with 40, almost every LP optimum was integral.
+  slack_max: 10
+  spoke_start_share: 0.25  # share of aircraft that start the day at a spoke
+  hub_hub_prob: 0.15     # with two hubs: probability that a hub departure goes to the other hub
+  second_hub_prob: 0.3   # with two hubs: probability that a spoke is also linked to the other hub
+  pax_min: 70
+  pax_max: 180
+  aog:
+    t1_min: 420          # 07:00
+    t1_max: 900          # 15:00
+    duration_min: 120    # t2 - t1, on a 15-minute grid
+    duration_max: 360
+  closure:
+    ta_min: 330          # 05:30
+    ta_max: 1080         # 18:00
+    duration_min: 60     # tb - ta, on a 15-minute grid
+    duration_max: 180
+    hub_prob: 0.5        # probability of trying a hub first (falls back to spokes)
+    min_affected: 2      # flights whose on-time copy is deleted by the closure
+
+# Scale ladder: the generator never exceeds the flight target.
+scales:
+  tiny:   {aircraft: 4,  hubs: 1, spokes: 6,  flights: 20}
+  small:  {aircraft: 10, hubs: 1, spokes: 8,  flights: 60}
+  medium: {aircraft: 25, hubs: 2, spokes: 12, flights: 150}
+  large:  {aircraft: 40, hubs: 2, spokes: 15, flights: 300}
+
+# Solver backend for the master and price-and-branch: gurobi or highs.
+solver:
+  backend: gurobi
+  tol: 1.0e-9            # primal and dual feasibility tolerance of the LP solves
+  threads: 1
+
+# Column generation (recovery/colgen.py).
+colgen:
+  eps: 1.0e-6            # add a column when its reduced cost is below -eps
+  gap_tol: 0.0           # early stop once (z_RMP - LB) / z_RMP <= gap_tol; 0 runs to convergence
+  max_iter: 5000
+  time_limit: null       # seconds; null for no limit
+  columns_per_aircraft: 1
+  smoothing: 0.8         # Wentges dual smoothing weight; 0 is plain column generation
+  purge_threshold: 1000.0  # a non-basic route column with reduced cost above this ...
+  purge_age: 10          # ... that stayed non-basic for this many LP solves is dropped
+  pool_cap: null         # null: 2000 - |F| - |S| - 50 route columns on gurobi, none on highs
+
+# Price-and-branch MIP over the generated pool.
+mip:
+  time_limit: 600
+  gap: 0.0
+
+# Compact arc-flow MILP baseline (recovery/compact.py), run on HiGHS.
+compact:
+  backend: highs
+  scales: [tiny, small]  # run_scale.py builds it only on these; it records the size everywhere
+  time_limit: 600        # seconds per solve
+  max_variables: 1500000 # larger models are reported as not attempted
+
+# Greedy + simulated annealing baseline (recovery/heuristic.py).
+heuristic:
+  sa_iterations: 20000
+  sa_t0: 3000.0          # initial temperature, in cost units
+  sa_t_end: 10.0         # final temperature (geometric cooling)
+  seed: 0
+
+# experiments/run_tradeoff.py
+tradeoff:
+  anytime_scale: large
+  anytime_seeds: "0-9"
+  time_limits: [0.5, 1, 2, 4, 8, 16]   # seconds for column generation + MIP
+  grid_scale: medium
+  grid_seeds: "0-9"
+  d_max_values: [0, 30, 60, 90, 120, 150, 180]  # with the default delay step
+  step_values: [5, 10, 15, 30]                  # with D_max = step_d_max
+  step_d_max: 180
+  smoothing_scale: large
+  smoothing_seeds: "0-9"
+  smoothing_values: [0.0, 0.5, 0.8]

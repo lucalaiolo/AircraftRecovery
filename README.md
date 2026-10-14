@@ -49,8 +49,6 @@ How to read it:
 
 ## Formulation
 
-The full formulation with derivations and proofs is [`docs/formulation.md`](docs/formulation.md); this section condenses it.
-
 ### Sets and data
 
 | Symbol | Meaning |

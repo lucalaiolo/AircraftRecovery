@@ -481,14 +481,6 @@ results/                    experiment CSVs and checked plans
 - **Price-and-branch is a heuristic**, so its gap is reported.
 - **Scope.** One fleet type; no crew, no maintenance; no passenger itineraries, so no misconnections or re-accommodation.
 
-## Extensions
-
-1. A second fleet type, with flight-type compatibility and seat capacity changing the passengers carried.
-2. Airport slot capacity per time window, as a coupling constraint in the master whose duals enter pricing.
-3. Maintenance: a flying-hours or cycles limit is a resource, so pricing becomes a resource-constrained shortest path solved by labeling with dominance.
-4. Crew legality, such as maximum duty time per aircraft-crew pairing: again a resource in labeling.
-5. Branch-and-price: generate columns during the branching as well, so the integer plan is optimal instead of heuristic.
-
 ## References
 
 - C. Barnhart, E. L. Johnson, G. L. Nemhauser, M. W. P. Savelsbergh and P. H. Vance (1998). Branch-and-price: Column generation for solving huge integer programs. *Operations Research* 46(3), 316–329.
